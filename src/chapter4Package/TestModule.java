@@ -2,7 +2,6 @@ package chapter4Package;
 
 public class TestModule
   {
-
     public static void main(String args[])
         {
 //        Module module = new Module();
@@ -11,12 +10,11 @@ public class TestModule
         Module module2 = new Module("1111", "Computer Science");
 //        module2.print("\nThis is Activity 4.2");
 
-        module2.setCode("22222");
+        module2.setCode("2222");
         module2.setTitle("Intro to IT");
         module2.setLevel(4);
         module2.setWeights(60, 40);
         module2.print("\nThis is Activity 4.3");
-
 
 //        System.out.println("\nThis is Activity 4.4");
 //        module2.setCode("4444");
@@ -41,6 +39,5 @@ public class TestModule
         System.out.println("\nThis is Activity 4.6");
         System.out.println("module2 is: " + module2.toString());
         System.out.println("module3 is: " + module3);
-        System.out.format("%08d%n", module3);
         }
   }
